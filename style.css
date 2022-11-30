@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 10rem;
+    background-color: #e6e6e6;
+}
+
+.main {
+    background-color: white;
+    opacity: 95%;
+    min-height: 80rem;
+    min-width: 80rem;
+    z-index: 1;
+}
+
+#datesec {
+    display: flex;
+    height: 5rem;
+    background-color: whitesmoke;
+    border-bottom: 2px solid grey;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#datesec>p {
+    font-size: larger;
+    padding-right: 2rem;
+}
+
+#daily {
+    display: flex;
+    flex-direction: column;
+   
+    height: auto;
+    background-color: #e6e6e6;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.evt {
+    margin-bottom: 10px;
+    
+    display: flex;
+    width: 60rem;
+    height: 90%;
+    background-color: white;
+    border-left: 1rem solid rgb(0, 191, 0);
+    align-items: center;
+    justify-content: start;
+    text-indent: 0.5rem;
+}
+
+
+.evt>p,
+h1 {
+    font-size: larger;
+}
+
+.gray {
+    color: grey;
+}
+
+
+
+.allDayLoc {
+    color: rgb(30, 143, 30);
+}
+
+/* Time Table */
+#AM {
+    display: flex;
+    height: 25rem;
+    border-top: 2px solid #96134d;
+    background-color: #fef6f8;
+}
+
+#PM {
+    display: flex;
+    height: 70rem;
+    border-top: 2px solid #47adf5;
+    background-color: #eefefe;
+}
+
+#red {
+    color: #96134d;
+}
+
+#blue {
+    color: #47adf5;
+}
+
+#time span {
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+    text-indent: 1rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    z-index: 0;
+}
+
+.timespan {
+    display: flex;
+    width: 80rem;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.completehour {
+    display: flex;
+    flex-direction: row;
+
+    border-top: 1px solid #a5a3a3;
+    width: 95%;
+    height: 4rem;
+}
+
+.completehour1 {
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 4rem;
+}
+
+.halfhour {
+    display: flex;
+    flex-direction: row;
+    color: #999798;
+    border-top: 1px solid #e3dfe0;
+    width: 85%;
+    height: 4rem;
+
+}
+
+/* Events */
+
+.event {
+    /* un comment this to change it to early start early display  */
+/* margin-left: 10px;; */
+
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-left: 1rem solid rgb(0, 191, 0);
+    justify-content: start;
+    text-indent: 0.5rem;
+    line-height: 3px;
+    z-index: 1;
+}

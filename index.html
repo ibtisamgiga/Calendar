@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalenderByIbtisam</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div id="datesec">
+
+            <p id="currdate">FRIDAY, APRIL 1</p>
+
+        </div>
+        <div id="daily">
+            <!-- <div id="evt">
+                <p id="gray">ALL DAY-</p>
+               
+                <h1 id="itemsample"> Sample Item</h1>
+                <p id="allDayLoc"> Sample Location</p>
+            </div> -->
+        </div>
+        <div id="time">
+            <div id="AM">
+                <span id="red">AM</span>
+                <div class="timespan">
+                    <div id="9" class="completehour1">
+                        <h1>9:00</h1>
+                    </div>
+                    <div id="9.5" class="halfhour">
+                        <h1>9:30</h1>
+                    </div>
+                    <div id="10" class="completehour">
+                        <h1>10:00</h1>
+                    </div>
+                    <div id="10.5" class="halfhour">
+                        <h1>10:30</h1>
+                    </div>
+                    <div id="11" class="completehour">
+                        <h1>11:00</h1>
+                    </div>
+                    <div id="11.5" class="halfhour">
+                        <h1>11:30</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="PM">
+                <span id="blue">PM</span>
+                <div class="timespan">
+                    <div id="12" class="completehour1">
+                        <h1>12:00</h1>
+                    </div>
+                    <div id="12.5" class="halfhour">
+                        <h1>12:30</h1>
+                    </div>
+                    <div id="13" class="completehour">
+                        <h1>1:00</h1>
+                    </div>
+                    <div id="13.5" class="halfhour">
+                        <h1>1:30</h1>
+                    </div>
+                    <div id="14" class="completehour">
+                        <h1>2:00</h1>
+                    </div>
+                    <div id="14.5" class="halfhour">
+                        <h1>2:30</h1>
+                    </div>
+                    <div id="15" class="completehour">
+                        <h1>3:00</h1>
+                    </div>
+                    <div id="15.5" class="halfhour">
+                        <h1>3:30</h1>
+                    </div>
+                    <div id="16" class="completehour">
+                        <h1>4:00</h1>
+                    </div>
+                    <div id="16.5" class="halfhour">
+                        <h1>4:30</h1>
+                    </div>
+                    <div id="17" class="completehour">
+                        <h1>5:00</h1>
+                    </div>
+                    <div id="17.5" class="halfhour">
+                        <h1>5:30</h1>
+                    </div>
+                    <div id="18" class="completehour">
+                        <h1>6:00</h1>
+                    </div>
+                    <div id="18.5" class="halfhour">
+                        <h1>6:30</h1>
+                    </div>
+                    <div id="19" class="completehour">
+                        <h1>7:00</h1>
+                    </div>
+                    <div id="19.5" class="halfhour">
+                        <h1>7:30</h1>
+                    </div>
+                    <div id="20" class="completehour">
+                        <h1>8:00</h1>
+                    </div>
+                    <div id="20.5" class="halfhour">
+                        <h1>8:30</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // script for getting current day/date
+        const date = new Date();
+        var newDate = date.toString();
+        newDate = newDate.split(" ")
+        var day = document.getElementById('currdate')
+        day.innerHTML = `${newDate[0]}, ${newDate[1]} ${newDate[2]}`
+    </script> 
+
+    <script type="module" src="./index.js"></script>
+    <!-- <script type="module" src="./data2.js"></script> -->
+</body>
+
+<!-- <script src="./data.js"></script> -->
+
+</html>
